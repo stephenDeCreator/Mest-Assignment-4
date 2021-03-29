@@ -1,0 +1,20 @@
+@media screen and (min-width: 1200px) {
+	.products-info {
+		float: left;
+		width: 30%;
+	}
+}
+/* .products-info {
+	background: blue;
+} */
+
+.product-text {
+	color: var(--clr-grey-5);
+	max-width: 26rem;
+}
+@media screen and (min-width: 1200px) {
+	.products-info {
+		float: left;
+		width: 30%;
+	}
+}

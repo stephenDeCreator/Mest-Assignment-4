@@ -1,0 +1,9 @@
+.contact-info {
+	margin: 1rem 0;
+}
+@media screen and (min-width: 992px) {
+	.contact-info {
+		float: left;
+		width: 50%;
+	}
+}

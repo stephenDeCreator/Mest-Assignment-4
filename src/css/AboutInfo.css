@@ -1,0 +1,7 @@
+.about-info {
+	padding: 2rem 0;
+}
+.about-text {
+	max-width: 26rem;
+	color: var(--clr-grey-5);
+}

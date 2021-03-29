@@ -1,0 +1,6 @@
+.products {
+	background: var(--clr-grey-10);
+}
+.products article {
+	padding: 2rem 0;
+}

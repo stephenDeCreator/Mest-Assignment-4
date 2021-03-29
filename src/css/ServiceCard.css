@@ -1,0 +1,26 @@
+.service-card {
+	margin: 2rem 0;
+	background: var(--clr-grey-10);
+	border-radius: var(--radius);
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+	transition: var(--transition);
+}
+.service-card:hover {
+	transform: scale(1.02);
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+@media screen and (min-width: 768px) {
+	.service-card {
+		float: left;
+		width: 45%;
+		margin-right: 5%;
+		/* 100% 45% 90% 5% */
+	}
+}
+@media screen and (min-width: 992px) {
+	.service-card {
+		width: 30%;
+		margin-right: 3.333%;
+		/* 100% 30% 90% 3.333% */
+	}
+}

@@ -1,0 +1,17 @@
+.about-img {
+	padding: 2rem 0;
+}
+.about-picture-container {
+	background: var(--clr-primary);
+	border: 0.5rem solid var(--clr-primary);
+	max-width: 30rem;
+	/* extra stuff */
+	overflow: hidden;
+}
+.about-picture {
+	transition: var(--transition);
+}
+.about-picture-container:hover .about-picture {
+	opacity: 0.5;
+	transform: scale(1.2);
+}
