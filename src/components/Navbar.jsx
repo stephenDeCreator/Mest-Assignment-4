@@ -21,7 +21,7 @@ const Navbar = () => {
 						<i className="fas fa-times"></i>
 					</span>
 				</div>
-				<NavItems />
+				<NavItems setShowNav={setShowNav} />
 			</nav>
 		</>
 	);

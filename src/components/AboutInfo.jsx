@@ -14,7 +14,7 @@ const AboutInfo = () => {
 			</div>
 			<Paragraph text={text} className="about-text" />
 			<Paragraph text={text} className="about-text" />
-			<Links label="learn more" />
+			<Links to="about" label="learn more" />
 		</article>
 	);
 };

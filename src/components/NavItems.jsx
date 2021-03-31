@@ -1,25 +1,41 @@
 import { NavLink } from 'react-router-dom';
 import '../css/NavItem.css';
-const NavItems = () => {
+const NavItems = ({ setShowNav }) => {
 	return (
 		<ul className="nav-items">
 			<li>
-				<NavLink className="nav-link" to="/homepage">
+				<NavLink
+					onClick={() => setShowNav(false)}
+					className="nav-link"
+					to="/homepage"
+				>
 					Home
 				</NavLink>
 			</li>
 			<li>
-				<NavLink className="nav-link" to="/skills">
+				<NavLink
+					onClick={() => setShowNav(false)}
+					className="nav-link"
+					to="/skills"
+				>
 					Skills
 				</NavLink>
 			</li>
 			<li>
-				<NavLink className="nav-link" to="/about">
+				<NavLink
+					onClick={() => setShowNav(false)}
+					className="nav-link"
+					to="/about"
+				>
 					About
 				</NavLink>
 			</li>
 			<li>
-				<NavLink className="nav-link" to="/products">
+				<NavLink
+					onClick={() => setShowNav(false)}
+					className="nav-link"
+					to="/products"
+				>
 					Products
 				</NavLink>
 			</li>

@@ -1,25 +1,26 @@
-// import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import About from './components/About';
-import Contact from './components/Contact';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import ContentDivider from './components/ContentDivider';
-import Footer from './components/Footer';
 import Header from './components/Header';
-
-import Products from './components/Products';
-import Services from './components/Services';
-import Skills from './components/Skills';
+import HomePage from './pages/HomePage';
+import AboutPage from './pages/AboutPage';
+import SkillsPage from './pages/SkillsPage';
+import ProductsPage from './pages/ProductsPage';
+import Navbar from './components/Navbar';
 
 function App() {
 	return (
 		<>
-			<Header />
-			<ContentDivider />
-			<Skills />
-			<About />
-			<Products />
-			<Services />
-			<Contact />
-			<Footer />
+			<BrowserRouter>
+				<Navbar />
+				<Header />
+				<ContentDivider />
+				<Switch>
+					<Route path="/homepage" exact component={HomePage} />
+					<Route path="/about" component={AboutPage} />
+					<Route path="/skills" component={SkillsPage} />
+					<Route path="/products" component={ProductsPage} />
+				</Switch>
+			</BrowserRouter>
 		</>
 	);
 }

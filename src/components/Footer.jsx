@@ -6,13 +6,13 @@ const Footer = () => {
 		<footer className="footer">
 			<div className="section-center">
 				<div className="social-icons">
-					<Link className="social-icon">
+					<Link to="#" className="social-icon">
 						<i className="fab fa-facebook"></i>
 					</Link>
-					<Link className="social-icon">
+					<Link to="#" className="social-icon">
 						<i className="fab fa-twitter"></i>
 					</Link>
-					<Link className="social-icon">
+					<Link to="#" className="social-icon">
 						<i className="fab fa-instagram"></i>
 					</Link>
 				</div>
